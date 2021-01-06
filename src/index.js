@@ -7,7 +7,7 @@ import SimplerComponent from './components/SimplerComponent';
 ReactDOM.render(
   <div>
     <SimpleComponent />
-    <SimplerComponent handleClick={<SimpleComponent />} />
+    <SimplerComponent handleClick={<SimplerComponent />} />
   </div>,
   document.getElementById('root')
 );
